@@ -1,3 +1,8 @@
+<?php
+    require_once '../navbar.php'
+
+?>
+
 <!DOCTYPE html>
 <html lang="hu">
 <head>
@@ -8,7 +13,8 @@
     <title>Boldog Blökik Állatmenhely</title>
 </head>
 <body>
-    <nav class="navbar">
+    <?php navBar()?>
+    <!--<nav class="navbar">
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
             <i class="fül">&#8801;</i>
@@ -32,7 +38,7 @@
         <span class="cim">Boldog Blökik Állatmenhely</span>
         <img class="icon" src="../img/logo.png" alt="logo">
     </nav>
-
+    -->
     <div class="content">
         <h1 class="title">Üdvözöljük a Boldog Blökik Állatmenhely weboldalán!</h1>
         <div id="slider">
